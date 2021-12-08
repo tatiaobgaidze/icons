@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .box::before {
+    content: '\f39e';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+}
+
+.box::after {
+    content: '\f101';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+} */
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 232, 240);
+    width: 50%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.soc {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 10px;
+    position: relative;
+    -webkit-box-shadow: 0px 12px 18px -1px rgba(199, 207, 216, 1);
+    -moz-box-shadow: 0px 12px 18px -1px rgba(199, 207, 216, 1);
+    box-shadow: 0px 12px 18px -1px rgba(199, 207, 216, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    transition-property: width, border-radius;
+    transition: .5s ease;
+}
+
+.fb::before {
+    content: '\f39e';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 50%;
+    color: #000;
+}
+
+.tw::before {
+    content: '\f099';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    position: absolute;
+    border-radius: 50%;
+    color: #000;
+}
+
+.inst::before {
+    content: '\f16d';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    position: absolute;
+    border-radius: 50%;
+    color: #000;
+}
+
+.git::before {
+    content: '\f09b';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    position: absolute;
+    border-radius: 50%;
+    color: #000;
+}
+
+.yt::before {
+    content: '\f167';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    position: absolute;
+    border-radius: 50%;
+    color: #000;
+}
+
+.soc:hover {
+    width: 300px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    transition-property: width, border-radius;
+    transition: .5s ease;
+    font-size: 20px;
+    text-align: center;
+    /* padding-left: 90px; */
+}
+
+.fb:hover {
+    color: #0F92F3;
+    ;
+}
+
+.fb:hover:before {
+    background-color: #0F92F3;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+.tw:hover {
+    color: rgb(29, 161, 242);
+}
+
+.tw:hover:before {
+    background-color: rgb(29, 161, 242);
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+.inst:hover {
+    color: #6648C5;
+}
+
+.inst:hover:before {
+    background-color: #6648C5;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+.git:hover {
+    color: #0D2636;
+}
+
+.git:hover:before {
+    background-color: #0D2636;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+.yt:hover {
+    color: #F70000;
+}
+
+.yt:hover:before {
+    background-color: #F70000;
+    color: #ffffff;
+    transition: all .5s ease;
+}
